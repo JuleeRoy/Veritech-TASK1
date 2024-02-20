@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const Emp_List = () => {
   const employeesData = useEmployeesData();
   const employees = useSelector((state) => state.employees.employees);
-  //   console.log(employeesData)
+    console.log(employeesData)
   console.log(employees);
   return (
     <Wrapper>
@@ -15,8 +15,10 @@ const Emp_List = () => {
         <h2 className="header">Our Employees List</h2>
         <ul>
           {employees.map((curElm, index) => {
+            console.log(curElm)
             return (
-              <NavLink>
+              <NavLink to={`/employee/${curElm.id}`}  key={curElm.id}>
+
                 <li key={curElm.id}>
                   <figure>
                     <img src={curElm.profileImage} alt="1" />
@@ -35,32 +37,34 @@ const Emp_List = () => {
 const Wrapper = styled.div`
   background-color: white;
   border-radius: 10px;
-  height: 400px;
+  height:auto;
+  
   width: 30%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 
   font-size: calc(${({ theme }) => theme.fonts.baseFontSize} * 1rem);
-  overflow-y:hidden;
+
   div {
     text-align: center;
-    
+    height:inherit;
   }
 
   h2 {
     background-color: ${({ theme }) => theme.colors.lightGreen};
     text-align: center;
     border-radius: 10px 10px 0px 0px;
-    padding: 15px;
+    padding: 18px 10px;
     font-size: 1.5rem;
-    // margin-bottom: 10px;
+    
   }
 
   ul {
     padding: 0px 10px;
-    overflow-y: scroll;
-    height: 400px;
+    max-height:400px;
+    overflow:auto;
+    
    
 
     li {
@@ -74,7 +78,7 @@ const Wrapper = styled.div`
       p {
         text-align: justify;
         display: inline-block;
-        width: 80%;
+        width:75%;
         margin-top: 10px;
       }
 
@@ -99,32 +103,12 @@ const Wrapper = styled.div`
 
   @media (max-width: 480px) {
     width: 80%;
-    height: 300px;
+    ul{
+      max-height:300px;
+    }
   }
 
-  /* width */
-::-webkit-scrollbar {
-  width:10px;
-  cursor:pointer;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
- 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background:${({theme})=>theme.gradient.green_gradient}; 
-  border-radius:5px;
- 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background:${({ theme }) => theme.colors.brightlyOrange};
-}
+  
 `;
 
 export default Emp_List;

@@ -7,11 +7,4 @@
 }
 
 /* Example usage: */
-.alert {
-  background-color: var(--alert-highlight-green);
-  color: var(--text-content-color);
-}
 
-.header {
-  color: var(--text-header-color);
-}

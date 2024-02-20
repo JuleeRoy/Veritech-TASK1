@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus iure quos quisquam suscipit perspiciatis quas molestiae debitis, deserunt aut fugiat vero dicta, pariatur, placeat voluptatem itaque aperiam amet velit ab culpa doloremque ipsa saepe ut dolore explicabo! Placeat facilis atque ab iure impedit eos odit dolorum voluptates magnam itaque mollitia laborum necessitatibus, dolorem doloremque non animi ex hic. Facere autem numquam laborum culpa obcaecati fugit inventore molestiae consequuntur quis excepturi eaque incidunt, veritatis voluptatum aut, reiciendis fuga animi deleniti. Repellat eius expedita est nemo deleniti ut natus ullam doloremque quisquam veniam voluptates facilis saepe, quibusdam quis dolore accusantium vitae odio, optio maiores velit nihil. Dolore, accusantium in. Quisquam ad illum ea repudiandae, sit itaque nam, nobis reprehenderit mollitia similique tempore eligendi dolorem aliquam! Tempora voluptates laudantium maxime. Nostrum aperiam dolorum sunt laborum, rerum, officia error voluptate omnis non illum incidunt tempore at repudiandae debitis ratione numquam, iusto quas odit similique id veniam? Obcaecati animi laboriosam, saepe suscipit mollitia id qui ducimus maxime omnis dicta, autem accusamus ipsum nostrum? Maiores magni porro facilis, suscipit recusandae laudantium sit! Assumenda voluptatibus ab quas, incidunt, vel obcaecati repellendus dolores iste sapiente esse, aut corrupti consequuntur consectetur adipisci cumque accusantium quis in. Numquam, velit laborum!</div>
   )
 }
 

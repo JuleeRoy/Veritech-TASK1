@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-.lato-regular {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .raleway {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:200;
-    font-style: normal;
-  }
+
 
 :root {
     --brightly-orange: #fd591d;
@@ -25,7 +15,7 @@
     --body-text:"Raleway", sans-serif;
     --body-font-weight:200;
     --base-font-size: 100%;
-
+    --green_gradient:"linear-gradient(to top, #59ce8f, #55ded6, #99e7fe, #dcefff, #ffffff);"
   }
 
 *{
@@ -38,7 +28,7 @@
       color:var(--text-content-color);
       font-weight: var(--body-font-weight);
       list-style: none;
-       
+      border: #efefef;
   }
   body{
     overflow-x: hidden;
@@ -48,10 +38,31 @@
     color: var(--text-header-color);
     font: var(--header) var(--header-style) var(--header-weight) ;
   
+ 
+  }
 
-  }
-  div{
-   text-align: center;
-   border-radius: 10px 10px 0px 0px;
-  
-  }
+  /* width */
+::-webkit-scrollbar {
+  width:10px;
+  cursor:pointer;
+  color: var(--dimly-blue);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color:var(--alert-highlight-green); 
+  border-radius:5px;
+ 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:var(--brightly-orange)
+}
+ 

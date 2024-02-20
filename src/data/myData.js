@@ -1,6 +1,6 @@
  const myEmployees = [
     {
-      id: 1,
+      id:"1",
       name: "Johnie Doe",
       jobTitle: "CEO",
       department: "Executive Management",
@@ -17,7 +17,7 @@
       ],
     },
     {
-      id: 2,
+      id:"2",
       name: "Jane Smith",
       jobTitle: "CTO",
       department: "Technology",
@@ -34,7 +34,7 @@
       ],
     },
     {
-      id: 1,
+      id:"3",
       name: "Johnie Doe",
       jobTitle: "CEO",
       department: "Executive Management",
@@ -51,7 +51,7 @@
       ],
     },
     {
-      id: 2,
+      id:"4",
       name: "Jane Smith",
       jobTitle: "CTO",
       department: "Technology",
@@ -68,7 +68,7 @@
       ],
     },
     {
-      id: 1,
+      id:"5",
       name: "Johnie Doe",
       jobTitle: "CEO",
       department: "Executive Management",
@@ -85,7 +85,7 @@
       ],
     },
     {
-      id: 2,
+      id:"6",
       name: "Jane Smith",
       jobTitle: "CTO",
       department: "Technology",
@@ -102,7 +102,7 @@
       ],
     },
     {
-      id: 1,
+      id:"7",
       name: "Johnie Doe",
       jobTitle: "CEO",
       department: "Executive Management",
@@ -119,7 +119,7 @@
       ],
     },
     {
-      id: 2,
+      id:"8",
       name: "Jane Smith",
       jobTitle: "CTO",
       department: "Technology",
@@ -136,7 +136,7 @@
       ],
     },
     {
-      id: 1,
+      id:"9",
       name: "Johnie Doe",
       jobTitle: "CEO",
       department: "Executive Management",
@@ -153,7 +153,7 @@
       ],
     },
     {
-      id: 2,
+      id:"10",
       name: "Jane Smith",
       jobTitle: "CTO",
       department: "Technology",
@@ -170,7 +170,7 @@
       ],
     },
     {
-      id: 1,
+      id:"11",
       name: "Johnie Doe",
       jobTitle: "CEO",
       department: "Executive Management",
@@ -187,7 +187,7 @@
       ],
     },
     {
-      id: 2,
+      id: "12",
       name: "Jane Smith",
       jobTitle: "CTO",
       department: "Technology",
@@ -203,6 +203,43 @@
         { title: "Project D", info: "This project addresses..." }
       ],
     },
+    
+    {
+      id: "13",
+      name: "Jane Smith",
+      jobTitle: "CTO",
+      department: "Technology",
+      bio: "Jane Smith is our Chief Technology Officer...",
+      expertise: ["Software Development", "Cloud Computing", "Machine Learning"],
+      contact: {
+        email: "jane.smith@example.com",
+        linkedin: "https://www.linkedin.com/in/janesmith",
+      },
+      profileImage: "https://static.vecteezy.com/system/resources/thumbnails/009/398/577/small/man-avatar-clipart-illustration-free-png.png",
+      projects: [
+        { title: "Project C", info: "Project C involves..." },
+        { title: "Project D", info: "This project addresses..." }
+      ],
+    },
+    {
+      id: "14",
+      name: "Jane Smith",
+      jobTitle: "CTO",
+      department: "Technology",
+      bio: "Jane Smith is our Chief Technology Officer...",
+      expertise: ["Software Development", "Cloud Computing", "Machine Learning"],
+      contact: {
+        email: "jane.smith@example.com",
+        linkedin: "https://www.linkedin.com/in/janesmith",
+      },
+      profileImage: "https://static.vecteezy.com/system/resources/thumbnails/009/398/577/small/man-avatar-clipart-illustration-free-png.png",
+      projects: [
+        { title: "Project C", info: "Project C involves..." },
+        { title: "Project D", info: "This project addresses..." }
+      ],
+    },
+
+
     // Add more employee objects as needed
   ];
   
